@@ -24,22 +24,6 @@ export default defineConfig({
         sidebar: sidebars.ja_jp,
       },
     },
-    "pt-br": {
-      label: "Brazilian Portuguese",
-      lang: "pr-br",
-      themeConfig: {
-        nav: navbars.pt_br,
-        sidebar: sidebars.pt_br,
-      },
-    },
-    "zh-hans": {
-      label: "简体中文",
-      lang: "zh-hans",
-      themeConfig: {
-        nav: navbars.zh_hans,
-        sidebar: sidebars.zh_hans,
-      },
-    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

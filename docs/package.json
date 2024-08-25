@@ -10,5 +10,14 @@
     "@types/node": "^20.8.10",
     "prettier": "^3.0.3",
     "vitepress": "^1.0.0-rc.24"
-  }
+  },
+  "dependencies": {
+    "vitest": "^2.0.5"
+  },
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

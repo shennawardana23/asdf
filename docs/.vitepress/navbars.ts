@@ -1,5 +1,5 @@
-import path from "path";
 import fs from "fs";
+import path from "path";
 import process from "process";
 
 export const getVersion = () => {
@@ -50,40 +50,4 @@ const ja_jp = [
   },
 ];
 
-const pt_br = [
-  { text: "Guia", link: "/pt-br/guide/getting-started" },
-  {
-    text: "Referência",
-    link: "/pt-br/manage/configuration",
-  },
-  {
-    text: getVersion(),
-    items: [
-      {
-        text: "Changelog",
-        link: "https://github.com/asdf-vm/asdf/blob/master/CHANGELOG.md",
-      },
-      { text: "Contribute", link: "/pt-br/contribute/core" },
-    ],
-  },
-];
-
-const zh_hans = [
-  { text: "指导", link: "/zh-hans/guide/getting-started" },
-  {
-    text: "参考",
-    link: "/zh-hans/manage/configuration",
-  },
-  {
-    text: getVersion(),
-    items: [
-      {
-        text: "Changelog",
-        link: "https://github.com/asdf-vm/asdf/blob/master/CHANGELOG.md",
-      },
-      { text: "如何贡献", link: "/zh-hans/contribute/core" },
-    ],
-  },
-];
-
-export { en, ja_jp, pt_br, zh_hans };
+export { en, ja_jp };
