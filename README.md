@@ -19,7 +19,7 @@ asdf is a CLI tool that can manage multiple language runtime versions on a per-p
 
 [Please head over to the documentation site for more information](https://asdf-vm.com/)!
 
-- [Getting Started](https://asdf-vm.com/guide/getting-started.html)
+- [Getting Started](docs/guide/getting-started.md)
 - [All Commands](https://asdf-vm.com/manage/commands.html)
 - [All Plugins](https://github.com/asdf-vm/asdf-plugins)
 - [Create a Plugin](https://asdf-vm.com/plugins/create.html) with our [asdf-plugin-template](https://github.com/asdf-vm/asdf-plugin-template)
@@ -42,20 +42,20 @@ See [CONTRIBUTING.md in the repo](https://github.com/asdf-vm/asdf/blob/master/CO
 > So people wrote a version manager for it<br/>
 > To switch between versions for projects<br/>
 > Different, old, new.
-> 
+>
 > Then there came more programming languages<br/>
 > So there came more version managers<br/>
 > And many commands for them
-> 
+>
 > I installed a lot of them<br/>
 > I learnt a lot of commands
-> 
+>
 > Then I said, just one more version manager<br/>
 > Which I will write instead
-> 
+>
 > So, there came another version manager<br/>
 > **asdf version manager** - <https://github.com/asdf-vm/asdf>
-> 
+>
 > A version manager so extendable<br/>
 > for which anyone can create a plugin<br/>
 > To support their favourite language<br/>
