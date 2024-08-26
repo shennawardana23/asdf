@@ -4,6 +4,7 @@ import * as sidebars from "./sidebars";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/github.com/shennawardana23/asdf",
   title: "asdf",
   description: "Manage multiple runtime versions with a single CLI tool",
   lastUpdated: true,
