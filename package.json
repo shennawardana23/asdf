@@ -5,9 +5,9 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@types/node": "^20.8.10",
@@ -22,5 +22,8 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "**Manage multiple runtime versions with a single CLI tool, extendable via plugins** - [docs at asdf-vm.com](https://asdf-vm.com/)",
+  "directories": {
+    "doc": "docs"
+  }
 }

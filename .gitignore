@@ -1,7 +1,7 @@
 ### Custom ###
 # VitePress build output & cache directory
-.vitepress/cache
-.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/dist
 
 # Dependency directories
 node_modules/
