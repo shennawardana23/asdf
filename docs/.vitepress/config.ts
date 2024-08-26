@@ -4,7 +4,6 @@ import * as sidebars from "./sidebars";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/shennawardana23/asdf",
   title: "asdf",
   description: "Manage multiple runtime versions with a single CLI tool",
   lastUpdated: true,
@@ -31,9 +30,5 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    socialLinks: [
-      { icon: "github", link: "https://github.com/asdf-vm/asdf" },
-      // { icon: "twitter", link: "https://twitter.com/asdf_vm" },
-    ],
   },
 });
